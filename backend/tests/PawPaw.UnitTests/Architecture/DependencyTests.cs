@@ -2,6 +2,7 @@ using FluentAssertions;
 using NetArchTest.Rules;
 using PawPaw.Core.Common;
 using PawPaw.UseCases.Files;
+using Xunit;
 
 namespace PawPaw.UnitTests.Architecture;
 
