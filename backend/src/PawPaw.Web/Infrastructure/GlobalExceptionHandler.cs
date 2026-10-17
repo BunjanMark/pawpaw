@@ -18,7 +18,7 @@ public sealed class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logge
       Status = StatusCodes.Status500InternalServerError,
       Title = "An unexpected error occurred.",
       Detail = "The request could not be completed.",
-      Instance = httpContext.Request.Path
+      Instance = httpContext.Request.Path.Value
     };
 
     problem.Extensions["traceId"] = Activity.Current?.Id ?? httpContext.TraceIdentifier;
