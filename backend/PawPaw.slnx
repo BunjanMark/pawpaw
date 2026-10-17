@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PawPaw.Core/PawPaw.Core.csproj" />
+    <Project Path="src/PawPaw.UseCases/PawPaw.UseCases.csproj" />
+    <Project Path="src/PawPaw.Infrastructure/PawPaw.Infrastructure.csproj" />
+    <Project Path="src/PawPaw.Web/PawPaw.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PawPaw.UnitTests/PawPaw.UnitTests.csproj" />
+    <Project Path="tests/PawPaw.IntegrationTests/PawPaw.IntegrationTests.csproj" />
+    <Project Path="tests/PawPaw.FunctionalTests/PawPaw.FunctionalTests.csproj" />
+  </Folder>
+</Solution>

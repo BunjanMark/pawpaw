@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/.vs/
+**/.idea/
+**/appsettings.json
+**/appsettings.*.json
+!**/appsettings.example.json
+storage/
+.git/
+.gitignore
