@@ -255,7 +255,7 @@ Temporary Items
 
 # Dependency directories
 
-# Snowpack dependency directory (https://snowpack.dev/)
+# Snowpack dependency directory
 
 # TypeScript cache
 
@@ -275,7 +275,7 @@ Temporary Items
 
 # dotenv environment variable files
 
-# parcel-bundler cache (https://parceljs.org/)
+# parcel-bundler cache
 
 # Next.js build output
 
@@ -344,3 +344,28 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+### ASP.NET Core / .NET backend ###
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+
+# Never commit runtime appsettings; commit appsettings.example.json only.
+**/appsettings.json
+**/appsettings.*.json
+!**/appsettings.example.json
+
+# Local backend file storage.
+backend/storage/
+
+# Secret/local YAML only. CI, Compose, and other non-secret YAML remain trackable.
+*.local.yml
+*.local.yaml
+*.secrets.yml
+*.secrets.yaml
+
+# Environment files; keep safe templates.
+.env.*
+!.env.example
