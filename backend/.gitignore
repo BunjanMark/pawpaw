@@ -1,0 +1,23 @@
+# .NET build output
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+
+# Local application configuration and secrets
+**/appsettings.json
+**/appsettings.*.json
+!**/appsettings.example.json
+*.local.yml
+*.local.yaml
+*.secrets.yml
+*.secrets.yaml
+
+# Local file storage
+storage/
+
+# Local environment files
+.env
+.env.*
+!.env.example
