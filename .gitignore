@@ -226,7 +226,7 @@ Temporary Items
 # KDE directory preferences
 .directory
 
-# Linux trash folder which might appear on any partition or disk
+# Linux trash folder which might appear in the root of a volume
 .Trash-*
 
 # .nfs files are created when an open file is removed but is still being accessed
@@ -255,7 +255,7 @@ Temporary Items
 
 # Dependency directories
 
-# Snowpack dependency directory
+# Snowpack dependency directory (https://snowpack.dev/)
 
 # TypeScript cache
 
@@ -275,7 +275,7 @@ Temporary Items
 
 # dotenv environment variable files
 
-# parcel-bundler cache
+# parcel-bundler cache (https://parceljs.org/)
 
 # Next.js build output
 
